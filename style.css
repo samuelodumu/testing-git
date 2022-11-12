@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(231, 188, 131);
+}
+h2, h3, p, img {
+    margin: 10px;
+}
+a {
+    color: black;
+}
