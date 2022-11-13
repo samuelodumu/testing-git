@@ -1,9 +1,22 @@
+** {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(231, 188, 131);
 }
-h2, h3, p, img {
-    margin: 10px;
+h2, h3, h4, p, img {
+    margin-left: 1rem;
 }
 a {
     color: black;
+}
+.container{
+    display: flex;
+}
+.col-md-4 {
+    margin: 5px;
+    padding: 10px;
+    border: navy 3px solid;
+    border-radius: 1.5rem;
 }
